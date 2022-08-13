@@ -4,7 +4,7 @@ def enterProducts():
     while enterDetails:
         details = input('Press A to enter itema nd Q to Quit')
         if details == 'A':
-            product = input('Eter product name:')
+            product = input('Enter product name:')
             quantity=int(input('Enter quantity:'))
             buyingData.update({product: quantity})
         elif details == 'Q':
